@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.fit5046.m3.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.fit5046.m3.ui.search.SearchFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/nav_memoir"
+        android:name="com.fit5046.m3.ui.memoir.MemoirFragment"
+        android:label="@string/menu_memoir"
+        tools:layout="@layout/fragment_memoir" />
+
+    <fragment
+        android:id="@+id/nav_watchlist"
+        android:name="com.fit5046.m3.ui.watchlist.WatchlistFragment"
+        android:label="@string/menu_watchlist"
+        tools:layout="@layout/fragment_watchlist" />
+
+    <fragment
+        android:id="@+id/nav_movieview"
+        android:name="com.fit5046.m3.ui.movieview.MovieviewFragment"
+        android:label="@string/menu_movieview"
+        tools:layout="@layout/fragment_movieview" />
+
+    <fragment
+        android:id="@+id/nav_addmemoir"
+        android:name="com.fit5046.m3.ui.addmemoir.AddMemoirFragment"
+        android:label="Add Memoir"
+        tools:layout="@layout/fragment_add_memoir" />
+
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.fit5046.m3.ui.report.ReportFragment"
+        android:label="Report"
+        tools:layout="@layout/fragment_report" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.fit5046.m3.ui.map.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" />
+
+</navigation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>By default</item>
+        <item>By release date</item>
+        <item>By watch time</item>
+        <item>By rating</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+    </string-array>
+
+    <string-array name="stats">
+        <item>NSW</item>
+        <item>VIC</item>
+        <item>QLD</item>
+        <item>WA</item>
+        <item>SA</item>
+        <item>TAS</item>
+        <item>ACT</item>
+        <item>NT</item>
+    </string-array>
+</resources>
