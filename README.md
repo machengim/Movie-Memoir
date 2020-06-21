@@ -1,20 +1,22 @@
-# FIT5046_M3
+# My Movie Memoir
 
-Assignment for FIT5046 Mobile Development and Distributed System
+As the assignment of FIT5046 Mobile and Distributed System, this app is used to help user to search movies and store movie momoirs.
 
-The app is used to store movie momoirs which includes features:
+Features include:
 
 + Login and sign up;
 
-+ Search for movie by TMDB API;
++ Search for movie using TMDB API;
 
-+ Display movie details and posters;
++ Display movie description, cast and poster;
 
-+ Add movie to watch list or to memoir list;
++ Store movie to the watch list or to the memoir list;
 
-+ Generate reports;
++ Generate reports based on user's watching history;
 
-+ Show user and cinemas location on map.
++ Show user and cinemas location on map using Google Map API;
+
++ Send Twitters.
 
 Demo video:
 
