@@ -18,6 +18,6 @@ Features include:
 
 + Send Twitters.
 
-Demo video:
+Demo:
 
-https://youtu.be/aup3FGUT_N4
+![](./demo.gif)
